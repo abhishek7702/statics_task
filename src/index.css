@@ -1,0 +1,154 @@
+
+.headerDiv
+{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #fff;;
+}
+/* footer div component */
+.footerDiv
+{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+   justify-content: space-around; 
+  text-align: center;
+  background-color: #141414;
+  height :50%;
+  width:100%;
+ 
+  
+}
+/* inner div for footer */
+.innerDiv
+{
+  color:white;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;}
+
+div a{
+  text-decoration: none;
+  color:white
+}
+
+/* home main div */
+.homeDiv
+{
+  background-color: #fafafe;
+  color:#89898b
+
+}
+/* Second div css */
+.secondDiv
+{
+  background-color:#fafafe;
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: space-around;
+  text-align: center;
+
+}
+.secondInner
+{ display:flex;
+  align-items:center;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+  
+  
+}
+.secinnerchild
+{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: column;
+  width:100%
+  }
+  .secinnerparent
+  {  display:flex;
+    /* color:maroon; */
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    text-align: center;
+    
+    }
+
+  
+.headerbtn button
+{  background-color: blue;
+  color:white;
+   padding:5px;
+  height:50px;
+  width:100px;
+  border-radius: 28px;
+   font-size: 20px;
+   margin-left: 30px;
+  }
+  
+  .button{
+    height: 30px;
+    padding: 5px;
+  }
+  
+  ul
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    text-align:center ;
+    align-items: center;
+    width:100%;
+    font-size: 16px;
+  }
+
+  ul li
+
+{ 
+  font-size: 20px;  
+  align-items: center;
+    display:flex;
+    list-style: none;
+    text-decoration: none;
+    color:#141414;
+    justify-content: space-between;
+    padding: 1rem;
+    
+
+  }
+
+  li:hover{
+    color:lightblue;
+    box-sizing: border-box
+  }
+
+
+  .Lastdivchild{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    width:100% 
+  }
+
+  .Lastdivchildinner{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    margin:10px;
+    /* width:20% */
+  }
+
+
+ 
